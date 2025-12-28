@@ -1,0 +1,30 @@
+# Eclipse settings
+.project
+.classpath
+.settings/
+
+# Build output
+bin/
+out/
+target/
+build/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+*.iml
+.idea/
+
+.vscode/
