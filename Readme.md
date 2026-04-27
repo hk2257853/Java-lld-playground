@@ -51,7 +51,21 @@ This repo is my hands-on practice playground for continuous improvement.
 ## ▶️ How to Run
 
 - Import into **Eclipse** as a Java project
-- Run individual examples via `main()` classes in `src/`
+- Run individual examples via `main()` classes in `src/` in your IDE or via command line:
+  ```bash
+  # Compile (run from project root directory)
+  javac -d bin src\path\to\file.java
+  
+  # Run (run from project root directory)
+  java -cp bin package.name.ClassName
+  ```
+  
+  Example for Memento Pattern (run from project root):
+  ```bash
+  cd c:\Users\hkboi\Desktop\LLD\LLD
+  javac -d bin src\behavioralDesignPattern\mementoPattern\*.java
+  java -cp bin behavioralDesignPattern.mementoPattern.Main
+  ```
 
 ---
 
